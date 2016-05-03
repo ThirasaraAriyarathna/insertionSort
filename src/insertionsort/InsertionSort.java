@@ -1,8 +1,8 @@
 package insertionsort;
 
 import java.util.*;
-
 public class InsertionSort {
+    int var=1;
     public static void Isort(int[] A){
         for (int i =1; i <A.length; i ++){
             int key = A[i];
